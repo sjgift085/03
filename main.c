@@ -13,7 +13,6 @@ int main(void){
   
   printf("나누기의 결과는 %f 입니다", a/b); 
   
-  
   system("PAUSE");	
   return 0;
 }

@@ -2,22 +2,18 @@
 #include <stdlib.h>
 
 int main(void){
-    
-    char alp;
-    int alp_num;
-    char alp_next;
-    int alp_next_num;
-    
-	printf("enter an character : ");
-	scanf("%c", &alp);
-	
-	alp_num = alp;
-	alp_next_num = alp_num + 1;
-	alp_next = alp_next_num;
-
-	printf("the next character of %c (%i) is %c (%i)\n", alp, alp_num, alp_next, alp_next_num);
-
-    system("pause");
-	return 0;
-
+  
+  float a, b;
+  
+  printf("분자를 입력하세요 : ");
+  scanf("%f", &a);
+  
+  printf("분모를 입력하세요 : ");
+  scanf("%f", &b);
+  
+  printf("나누기의 결과는 %f 입니다", a/b); 
+  
+  
+  system("PAUSE");	
+  return 0;
 }

@@ -2,14 +2,20 @@
 #include <stdlib.h>
 
 int main(void){
-	char c;
-	int i;
+    
+    char alp;
+    int alp_num;
+    char alp_next;
+    int alp_next_num;
+    
+	printf("enter an character : ");
+	scanf("%c", &alp);
 	
-	printf("input a number : ");
-	scanf("%c", &c);
+	alp_num = alp;
+	alp_next_num = alp_num + 1;
+	alp_next = alp_next_num;
 
-    i = c;
-	printf("The input number is %i\n", i);
+	printf("the next character of %c (%i) is %c (%i)\n", alp, alp_num, alp_next, alp_next_num);
 
     system("pause");
 	return 0;
